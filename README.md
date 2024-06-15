@@ -83,10 +83,8 @@ We welcome contributions to enhance PLANWISER. To contribute:
 4. Push your changes to your fork.
 5. Create a pull request.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
-For questions, feedback, or support, please contact us at support@planwiser.com.
+For questions, feedback, or support, please contact us at shouryya.v.monga@gmail.com.
 
 Thank you for using PLANWISER! We hope it helps you achieve your study goals efficiently.
