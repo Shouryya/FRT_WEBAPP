@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row">
+    <div class="col">
+       
+            <h1 class="display-4">Welcome to Study Planner!</h1>
+
+    </div>
+
+</div>
+<div class="row">
+    <div class="col">
+        <form asp-page="Index" class="form">
+            <div clas="form-group mb-3">
+                <label for="Deadline">Deadline</label>
+                <input type="text" asp-for="@Model.Details.deadline" class="form-control"/>
+            </div>
+            <div clas="form-group mb-3">
+                <label for="Deadline">Hours Per Day</label>
+                <input type="text" asp-for="@Model.Details.hours_per_day" class="form-control"/>
+            </div>
+            <div clas="form-group mb-3">
+                <label for="Deadline">Enter Your Syllabus</label>
+                <input type="text" asp-for="@Model.Details.syllabus" class="form-control"/>
+            </div>
+            <input type="submit" class="btn btn-primary"/>
+        </form>
+    </div>
+    <div class="col">
+        <h2>STUDY PLAN</h2>
+        <p>@Model.StudyPlan</p>
+
+    </div>
+</div>
